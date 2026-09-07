@@ -1,10 +1,10 @@
 name: Doxygen generation
 
 on:
-  push:
-    branches:
-      - main
-      - ci/doxygen-generate
+  # push:
+  #   branches:
+  #     - main
+  #     - ci/doxygen-generate
 
 jobs:
   build-doxygen:
