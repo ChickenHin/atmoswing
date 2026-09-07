@@ -1,9 +1,9 @@
 name: Linux builds
 
 on:
-  push:
-    branches-ignore:
-      - ci/coverage-gui
+  # push:
+  #   branches-ignore:
+  #     - ci/coverage-gui
 
 env:
   BUILD_TYPE: Release
