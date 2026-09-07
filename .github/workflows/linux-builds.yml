@@ -4,6 +4,7 @@ on:
   # push:
   #   branches-ignore:
   #     - ci/coverage-gui
+  workflow_dispatch: 
 
 env:
   BUILD_TYPE: Release
